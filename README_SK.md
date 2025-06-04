@@ -1,35 +1,71 @@
 # Virtual Panel
 
-🖥️ **Virtual Panel** je webové administratívne rozhranie navrhnuté pre správu serverov, Laravel aplikácií alebo iných webových projektov. Panel je ľahko rozšíriteľný a slúži ako základ pre vlastné admin nástroje alebo webové UI aplikácie.
+## 🇸🇰 Slovenská verzia
+
+🖥️ **Virtual Panel** je webový administrátorský panel navrhnutý na správu serverov, Laravel projektov a iných webových aplikácií. Je ľahko rozšíriteľný, bezpečný a pripravený na prispôsobenie pre rôzne použitia.
 
 ---
 
-## 📦 Obsah projektu
+### 📦 Obsah projektu
 
-Tento projekt bol importovaný zo ZIP archívu a obsahuje:
-
-- 💡 Základný frontend/backend panel
-- 📁 Štruktúra pripravená na rozšírenie (moduly, pluginy, šablóny)
-- 🧱 Laravel (voliteľné), HTML/JS/PHP alebo iný základ podľa konfigurácie
-- 🌐 Možnosť pripojenia na API alebo databázu
+- Frontend/backend štruktúra  
+- Pripravené na použitie s Laravelom alebo vlastným PHP riešením  
+- Konfiguračné súbory a utility skripty  
+- Podpora pre API integráciu a databázové pripojenie  
 
 ---
 
-## 🔧 Požiadavky
+### 🔧 Požiadavky
 
-Závislosti sa môžu líšiť podľa typu inštalácie, ale štandardne odporúčané:
-
-- PHP 8.1+
-- MySQL alebo MariaDB
-- Apache / Nginx
-- Composer (ak je Laravel)
-- Node.js (ak používaš frontend buildery)
+- PHP 8.1+  
+- MySQL / MariaDB  
+- Apache alebo Nginx  
+- Composer (ak používaš Laravel)  
+- Node.js (ak používaš build nástroje)  
 
 ---
 
-## 🚀 Inštalácia
+### 🚀 Inštalácia
 
-1. Klonuj repozitár:
 ```bash
 git clone https://github.com/SILVERR21DT/Virtual_panel.git
 cd Virtual_panel
+```
+
+Ďalšie inštrukcie nájdeš v adresári `docs/` alebo v súboroch projektu.
+
+---
+
+### 📁 Štruktúra projektu
+
+```
+Virtual_panel/
+├── public/
+├── src/
+├── config/
+├── scripts/
+├── README.md
+├── README_SK.md
+
+```
+
+---
+
+### 🔐 Bezpečnostné odporúčania
+
+- Používaj HTTPS  
+- Zabezpeč administráciu (login, firewall, IP whitelist)  
+- Skry `.env` alebo iné citlivé súbory  
+
+---
+
+### 📜 Licencia
+
+MIT License, ak nie je uvedené inak.
+
+---
+
+### 👤 Autor
+
+Projekt udržiava: [SILVERR21DT](https://github.com/SILVERR21DT)
+
